@@ -17,7 +17,7 @@ Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define         _htmldir        /usr/share/doc/kde/HTML
 
 %description
-KWappen is a colorful KDE3 board game. 
+KWappen is a colorful KDE3 board game.
 
 %description -l pl
 KWappen jest kolorowa gr± planszow± dla KDE3.
