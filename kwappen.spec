@@ -33,8 +33,7 @@ CXXFLAGS="%{rpmcflags} -fno-rtti -fno-exceptions"
 %{__autoconf}
 %configure
 
-make
-#%{__make}
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
