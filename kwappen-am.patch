@@ -1,0 +1,21 @@
+diff -Nur kwappen-1.1.0.orig/Makefile.am kwappen-1.1.0/Makefile.am
+--- kwappen-1.1.0.orig/Makefile.am	Mon Jun 10 22:48:59 2002
++++ kwappen-1.1.0/Makefile.am	Mon Jun 10 22:49:25 2002
+@@ -2,7 +2,7 @@
+ 
+ SUBDIRS = kwappen po doc 
+ 
+-EXTRA_DIST = kwappen.kdevprj AUTHORS COPYING ChangeLog INSTALL README TODO kwappen.lsm kwappen.spec 
++EXTRA_DIST = kwappen.kdevprj AUTHORS COPYING ChangeLog INSTALL README TODO kwappen.lsm kwappen.spec admin
+ 
+ ####### kdevelop will overwrite this part!!! (end)############
+ # not a GNU package. You can remove this line, if 
+@@ -24,8 +24,6 @@
+ 	$(MAKE) -f admin/Makefile.common package-messages
+ 	$(MAKE) -C po merge
+ 
+-EXTRA_DIST = admin 
+-
+ dist-hook:
+ 	cd $(top_distdir) && perl admin/am_edit -padmin
+ 	cd $(top_distdir) && $(MAKE) -f admin/Makefile.common subdirs
