@@ -2,7 +2,7 @@ Summary:	KDE3 board game
 Summary(pl):	Gra planszowa dla KDE3
 Name:		kwappen
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.lcs-chemie.de/%{name}-%{version}.tar.gz
@@ -55,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/apps/*
 %{_pixmapsdir}/*/*/*/*
 %lang(de) %{_docdir}/kde/HTML/de/kwappen
-%lang(en) %{_docdir}/kde/HTML/en/kwappen
+%{_docdir}/kde/HTML/en/kwappen
