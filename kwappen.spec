@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.lcs-chemie.de/%{name}-%{version}.tar.gz
+# Source0-md5:	8e21df6cbebc9d6e847d7e4317d2c324
 Patch0:		%{name}-am.patch
 URL:		http://www.lcs-chemie.de/kwappen_eng.htm
 BuildRequires:	autoconf
