@@ -19,3 +19,16 @@ diff -Nur kwappen-1.1.0.orig/Makefile.am kwappen-1.1.0/Makefile.am
  dist-hook:
  	cd $(top_distdir) && perl admin/am_edit -padmin
  	cd $(top_distdir) && $(MAKE) -f admin/Makefile.common subdirs
+
+diff -Nru kwappen-1.1.2.orig/po/Makefile.am kwappen-1.1.2/po/Makefile.am
+--- kwappen-1.1.2.orig/po/Makefile.am	Sat Dec 28 15:36:01 2002
++++ kwappen-1.1.2/po/Makefile.am	Sat Dec 28 15:53:18 2002
+@@ -1,6 +1,5 @@
+ ####### kdevelop will overwrite this part!!! (begin)##########
+-POFILES = de.po 
+-
++EXTRA_DIST = kwappen.pot
+ 
+ ####### kdevelop will overwrite this part!!! (end)############
+ POFILES = AUTO
+
