@@ -1,5 +1,5 @@
 Summary:	KDE3 board game
-Summary(pl):	Gra planszowa dla KDE3
+Summary(pl.UTF-8):   Gra planszowa dla KDE3
 Name:		kwappen
 Version:	1.1.2
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KWappen is a colorful KDE3 board game.
 
-%description -l pl
-KWappen jest kolorowa gr± planszow± dla KDE3.
+%description -l pl.UTF-8
+KWappen jest kolorowa grÄ… planszowÄ… dla KDE3.
 
 %prep
 %setup -q
