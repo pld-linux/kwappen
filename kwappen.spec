@@ -1,5 +1,5 @@
 Summary:	KDE3 board game
-Summary(pl.UTF-8):   Gra planszowa dla KDE3
+Summary(pl.UTF-8):	Gra planszowa dla KDE3
 Name:		kwappen
 Version:	1.1.2
 Release:	1
